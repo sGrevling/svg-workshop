@@ -1,0 +1,16 @@
+.example-2 {
+    position: relative;
+}
+
+.example-2 rect {
+    transition: x 500ms ease-in-out;
+}
+
+.example-2 circle {
+    transition: cx 700ms ease-out, cy 400ms ease-out;
+}
+
+.example-2 .sliders {
+    position: absolute;
+    bottom: -70px
+}

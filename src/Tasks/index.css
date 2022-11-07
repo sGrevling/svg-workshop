@@ -1,0 +1,45 @@
+.tasks {
+    position: fixed;
+    top: 250px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.taskSelect .navLink {
+    background-color: #d93989;
+}
+
+.taskSelect .navLink.active {
+    background-color: hotpink;
+}
+
+.taskSelect .navLink:hover {
+    background-color: #ff89c1;
+}
+
+.tasks h1,
+.tasks h2 {
+    text-align: center;
+}
+
+.tasks h1 span {
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+.task a {
+    color: deepskyblue;
+}
+
+.task ul {
+    max-width: 80vw;
+}
+
+.task li {
+    margin-bottom: 4px;
+}

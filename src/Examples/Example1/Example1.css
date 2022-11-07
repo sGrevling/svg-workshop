@@ -1,0 +1,8 @@
+
+.example-1 rect {
+    transition: x 500ms ease-in-out;
+}
+
+.example-1 circle {
+    transition: cx 300ms ease-out, cy 300ms ease-out;
+}

@@ -1,0 +1,36 @@
+.examples {
+    position: fixed;
+    top: 140px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.exampleSelect .navLink {
+    background-color: #0a6ccb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.exampleSelect .navLink span:last-child {
+    font-weight: normal;
+    font-size: .8rem;
+}
+
+.exampleSelect .navLink.active {
+    background-color: dodgerblue;
+}
+
+.exampleSelect .navLink:hover {
+    background-color: #48a2ff;
+}
+
+.example h1 {
+    text-align: center;
+}
