@@ -1,6 +1,6 @@
 .tasks {
     position: fixed;
-    top: 250px;
+    top: 180px;
     left: 0;
     right: 0;
     bottom: 0;
@@ -30,6 +30,10 @@
 .tasks h1 span {
     font-size: 1.5rem;
     font-weight: normal;
+}
+
+.task {
+    max-width: 42rem;
 }
 
 .task a {

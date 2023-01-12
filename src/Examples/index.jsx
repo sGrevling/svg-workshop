@@ -12,7 +12,7 @@ const shapeExamples = [Example1, Example2, Example3, Example4];
 const shapeDescriptions = ['Move on click', 'Change size', 'Simple mask', 'Mutual masking']
 
 const pathExamples = [Example5];
-const pathDescriptions = ['Morph path']
+const pathDescriptions = ['Morphing path']
 
 
 const Tasks = () => {
@@ -22,7 +22,7 @@ const Tasks = () => {
     return (
         <div className="examples">
             <div className="subNavWrapper">
-                <p>Simple shapes</p>
+                <p>Bob's quest</p>
                 <div className="subNav exampleSelect">
                     {shapeExamples.map((t, i) => (
                             <Link
@@ -59,7 +59,7 @@ const Tasks = () => {
                 </div>
             </div>
             <h1>{shapeDescriptions[selectedIndex]}</h1>
-            <p>You can find the code in <code>src/Examples/Example{selectedIndex + 1}</code> (spoilers)</p>
+            <p>You can find the code in <code>src/Examples/Example{selectedIndex + 1}</code></p>
             {Example ? <Example/> : <p>No example {selectedIndex + 1}</p>}
         </div>
     );

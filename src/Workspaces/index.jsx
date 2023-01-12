@@ -10,6 +10,8 @@ const workspaces = [
     Workspace2,
 ]
 
+const titles = ["Bob's quest", "The void"]
+
 const Workspaces = () => {
     const location = useLocation();
     const selectedIndex = location.state?.workspace ?? 0;
@@ -26,7 +28,7 @@ const Workspaces = () => {
                                 )}
                                 state={{...location.state, workspace: i}}
                             >
-                                Workspace {i + 1}
+                                {titles[i]}
                             </Link>
                         )
                     )}

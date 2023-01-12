@@ -14,3 +14,11 @@
     position: absolute;
     bottom: -70px
 }
+
+#myRect2 {
+    fill: dodgerblue;
+}
+
+#myCircle2 {
+    fill: hotpink;
+}

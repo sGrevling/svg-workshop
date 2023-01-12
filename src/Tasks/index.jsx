@@ -16,7 +16,7 @@ const Tasks = () => {
     return (
         <div className="tasks">
             <div className="subNavWrapper">
-                <p>Simple shapes</p>
+                <p>Bob's quest</p>
                 <div className="subNav taskSelect">
                     {simpleTasks.map((t, i) => (
                             <Link

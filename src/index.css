@@ -10,3 +10,8 @@ code {
   padding: 1px 5px;
   border-radius: 3px;
 }
+
+flavour {
+  color: rgb(188, 164, 255);
+  font-style: italic;
+}
