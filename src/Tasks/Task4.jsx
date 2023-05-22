@@ -11,7 +11,7 @@ export const Task4 = () => {
             <h3>Tips:</h3>
             <ul>
                 <li>The shape of a <code>path</code> can be animated by changing its <code>d</code> value.</li>
-                <li>The <code>d</code> must retain the same structure; the number and type of vertices (corners) mus
+                <li>The <code>d</code> must retain the same structure; the number and type of vertices (corners) must
                     remain the same.
                 </li>
                 <li>A vertex can move and a curve can change;</li>

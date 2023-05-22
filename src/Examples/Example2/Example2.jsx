@@ -6,8 +6,6 @@ export const Example2 = () => {
     const [rectHeight, setRectHeight] = useState(1);
     const [rectWidth, setRectWidth] = useState(1);
 
-    console.log('rectHeight: ', rectHeight);
-
     return (
         <div className="example example-2">
             <div className="sliders">
